@@ -103,11 +103,18 @@ body {
   border-bottom: 1px solid #e5e5e5;
 }
 
+.logo-link {
+  cursor: pointer;
+}
+
 .name img {
   grid-column: 1/-2;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.3s;
 }
 
 nav {
